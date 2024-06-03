@@ -156,6 +156,10 @@ button:focus {
     .error_image {
         right: 15%;
     }
+    span {
+        color:red;
+        font-weight:600;
+    }
 }
 
 @media screen and (min-width:426px) and (max-width:768px) {
@@ -185,6 +189,10 @@ button:focus {
     font-size:1rem;
     margin-top:30px;
  }
+ span {
+    color:red;
+    font-weight:600;
+ }
 }
 
 @media screen and (min-width:1024px) {
@@ -201,5 +209,8 @@ button:focus {
     .form_details {
         margin-top:40px;
     }
-
+    span {
+        color:red;
+        font-weight:600;
+    }
 }
