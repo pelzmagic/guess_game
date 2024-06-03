@@ -48,6 +48,10 @@ p {
 form {
     position:relative;
 }
+span {
+    color:red;
+    font-weight:600;
+}
 input {
     width:60%;
     height:30px;
