@@ -26,7 +26,7 @@ body {
     max-width: 50vw;
     height:60vh;
     background-color: #93a3bc;
-    margin:0 auto;
+    margin: auto;
     border-radius:10px;
     box-shadow:0 10px 15px var(--umber);
     margin-top: 7rem;
@@ -120,4 +120,82 @@ button:focus {
 }
 .hide {
     display: none;
+}
+
+@media screen and (min-width:375px) and (max-width:425px) {
+    .container {
+        max-width:80vw;
+        height:80vh;
+    }
+    .introduction {
+        margin-top:30px;
+        width:90%;
+        font-family: "Space Grotesk", sans-serif;
+        line-height:1.5;
+    }
+    .form_details {
+        margin-top:40px;
+        font-size:1.2rem;
+    }
+    input {
+        width:85%;
+    }
+    button {
+        width:50%;
+        height:30px;
+        margin-top:28px;
+    }
+    .result {
+        font-size:1rem;
+        margin-top:30px;
+    }
+    .error_image {
+        right: 15%;
+    }
+}
+
+@media screen and (min-width:426px) and (max-width:768px) {
+ .container {
+    max-width: 80vw;
+    height:80vh;
+ }
+ .introduction {
+    width:80%;
+    font-family: "Space Grotesk", sans-serif;
+    line-height:1.5;
+    margin-top:20px;
+ }
+ .form_details {
+    margin-top:40px;
+    font-size:1.2rem;
+ }
+ input {
+    width:80%;
+ }
+ button {
+    width:60%;
+    height:30px;
+    margin-top:28px;
+ }
+ .result {
+    font-size:1rem;
+    margin-top:30px;
+ }
+}
+
+@media screen and (min-width:1024px) {
+    .container {
+        max-width: 70vw;
+        height:60vh;
+    }
+    .introduction {
+        width: 85%;
+        font-family: "Space Grotesk", sans-serif;
+        line-height:1.5;
+        margin-top:20px;
+    }
+    .form_details {
+        margin-top:40px;
+    }
+
 }

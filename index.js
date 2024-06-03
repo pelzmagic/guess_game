@@ -24,7 +24,7 @@ function checkSubmission() {
         sessionStorage.setItem('submissionCount', submissionCount);
         return true;
     } else {
-        result.innerHTML = "You have exceeded the number of tries";
+        result.innerHTML = "You have exceeded your number of attempts";
         result.style.color = "black";
         sessionStorage.clear();
     }
@@ -46,7 +46,7 @@ form.addEventListener('submit', (e) => {
 
     // Checks if the user inputs a number that is too low or close
     if (userInput <= 50) {
-        result.innerHTML = "Your guess is too low! You have two more tries.";
+        result.innerHTML = "Your guess is too low! Please try again.";
         result.style.color = "red";
     } else if (userInput > 50 && userInput < 88) {
         result.innerHTML = "Your guess is pretty close, you're almost there!";
